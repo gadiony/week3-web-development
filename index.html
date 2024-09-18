@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeleMed Connect</title>
+    <link>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">TeleMed Connect</div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="toggleNav()">☰</div>
+        </div>
+    </header>  <h2>Introduction</h2>
+    <p>This is a basic HTML template demonstrating various HTML elements including a form, a table, and an image.</p>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <h2>User Information</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brian Gichana</td>
+                <td>gichanabrian03@gmail.com</td>
+                <td>254704023974</td>
+            </tr>
+            <tr>
+                <td>brian gichana</td>
+                <td>gichanabrian03@gmail.com</td>
+                <td>254704023974</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Image</h2>
+    <img height="450"width="450" src="./istockphoto-1591572504-1024x1024.jpg" alt="gad ryan">
+
+
+
+    <div class="container">
+        <main>
+            <section class="content">
+                <h1>Welcome to TeleMed Connect</h1>
+                <p>TeleMed Connect is your trusted platform for accessing quality healthcare from the comfort of your home. Our telemedicine services connect you with experienced doctors for virtual consultations, ensuring you receive the care you need, when you need it.</p>
+                <h2>Why Choose TeleMed Connect?</h2>
+                <ul>
+                    <li>24/7 access to healthcare professionals</li>
+                    <li>Secure and confidential video consultations</li>
+                    <li>Prescription services available</li>
+                    <li>Speciality care options</li>
+                </ul>
+            </section>
+            <aside class="sidebar">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#book">Book an Appointment</a></li>
+                    <li><a href="#faq">FAQs</a></li>
+                    <li><a href="#insurance">Insurance Information</a></li>
+                </ul>
+                <h3>Search</h3>
+                <input type="text" placeholder="Search...">
+            </aside>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TeleMed Connect. All rights reserved.</p>
+            <p>Follow us on: 
+                <a href="#" style="color: #ecf0f1;">Facebook</a> | 
+                <a href="#" style="color: #ecf0f1;">Twitter</a> | 
+                <a href="#" style="color: #ecf0f1;">LinkedIn</a>
+            </p>
+            <p>Contact: info@telemedconnect.com | (123) 456-7890</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("nav");
+            nav.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
